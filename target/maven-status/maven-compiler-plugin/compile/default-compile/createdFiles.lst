@@ -1,0 +1,11 @@
+ObjectRepository\PreferencePage.class
+ObjectRepository\CheckoutPage.class
+ObjectRepository\Global.class
+ObjectRepository\FormPage.class
+resources\Base.class
+resources\Listeners.class
+ObjectRepository\ProductPage.class
+ObjectRepository\CartPage.class
+ObjectRepository\HomePage.class
+ObjectRepository\PreferenceDepenPage.class
+resources\ExtentReporterNG.class

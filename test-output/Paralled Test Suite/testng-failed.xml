@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Paralled Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Api Demo(failed)" parallel="tests">
+    <classes>
+      <class name="script.CloudApiDemoTest">
+        <methods>
+          <include name="BefMet"/>
+          <include name="test2"/>
+          <include name="AfCla"/>
+          <include name="AfMet"/>
+        </methods>
+      </class> <!-- script.CloudApiDemoTest -->
+    </classes>
+  </test> <!-- Api Demo(failed) -->
+</suite> <!-- Failed suite [Paralled Test Suite] -->

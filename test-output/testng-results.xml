@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Emulator Test Suite" duration-ms="120861" started-at="2021-11-14T17:48:40 ICT" finished-at="2021-11-14T17:50:41 ICT">
+    <groups>
+      <group name="ApiDemo">
+        <method signature="ApiDemoTest.Views()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="Views" class="script.ApiDemoTest"/>
+        <method signature="ApiDemoTest.WifiSetting()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="WifiSetting" class="script.ApiDemoTest"/>
+      </group> <!-- ApiDemo -->
+      <group name="Ecommerce">
+        <method signature="EcommerceTest.TotalValidation()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="TotalValidation" class="script.EcommerceTest"/>
+      </group> <!-- Ecommerce -->
+    </groups>
+    <test name="Api Demo" duration-ms="61787" started-at="2021-11-14T17:48:40 ICT" finished-at="2021-11-14T17:49:41 ICT">
+      <class name="script.ApiDemoTest">
+        <test-method status="PASS" signature="BefCla()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="BefCla" is-config="true" duration-ms="6588" started-at="2021-11-14T17:48:40 ICT" finished-at="2021-11-14T17:48:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefCla -->
+        <test-method status="PASS" signature="BefMet()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="BefMet" is-config="true" duration-ms="23021" started-at="2021-11-14T17:48:46 ICT" finished-at="2021-11-14T17:49:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMet -->
+        <test-method status="PASS" signature="Views()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="Views" duration-ms="1771" started-at="2021-11-14T17:49:09 ICT" finished-at="2021-11-14T17:49:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Views -->
+        <test-method status="PASS" signature="AfMet()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="AfMet" is-config="true" duration-ms="224" started-at="2021-11-14T17:49:11 ICT" finished-at="2021-11-14T17:49:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMet -->
+        <test-method status="PASS" signature="BefMet()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="BefMet" is-config="true" duration-ms="17336" started-at="2021-11-14T17:49:11 ICT" finished-at="2021-11-14T17:49:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMet -->
+        <test-method status="PASS" signature="WifiSetting()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="WifiSetting" duration-ms="5427" started-at="2021-11-14T17:49:29 ICT" finished-at="2021-11-14T17:49:34 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WifiSetting -->
+        <test-method status="PASS" signature="AfMet()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="AfMet" is-config="true" duration-ms="277" started-at="2021-11-14T17:49:34 ICT" finished-at="2021-11-14T17:49:34 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMet -->
+        <test-method status="PASS" signature="AfCla()[pri:0, instance:script.ApiDemoTest@1df8b5b8]" name="AfCla" is-config="true" duration-ms="7067" started-at="2021-11-14T17:49:34 ICT" finished-at="2021-11-14T17:49:41 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfCla -->
+      </class> <!-- script.ApiDemoTest -->
+    </test> <!-- Api Demo -->
+    <test name="Ecommerce" duration-ms="58613" started-at="2021-11-14T17:49:42 ICT" finished-at="2021-11-14T17:50:41 ICT">
+      <class name="script.EcommerceTest">
+        <test-method status="PASS" signature="BefCla()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="BefCla" is-config="true" duration-ms="7253" started-at="2021-11-14T17:49:42 ICT" finished-at="2021-11-14T17:49:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefCla -->
+        <test-method status="PASS" signature="BefMet()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="BefMet" is-config="true" duration-ms="19100" started-at="2021-11-14T17:49:49 ICT" finished-at="2021-11-14T17:50:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefMet -->
+        <test-method status="PASS" signature="TotalValidation()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="TotalValidation" duration-ms="24919" started-at="2021-11-14T17:50:08 ICT" finished-at="2021-11-14T17:50:33 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalValidation -->
+        <test-method status="PASS" signature="AfMet()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="AfMet" is-config="true" duration-ms="170" started-at="2021-11-14T17:50:33 ICT" finished-at="2021-11-14T17:50:33 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMet -->
+        <test-method status="PASS" signature="AfCla()[pri:0, instance:script.EcommerceTest@7354b8c5]" name="AfCla" is-config="true" duration-ms="7168" started-at="2021-11-14T17:50:33 ICT" finished-at="2021-11-14T17:50:41 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfCla -->
+      </class> <!-- script.EcommerceTest -->
+    </test> <!-- Ecommerce -->
+  </suite> <!-- Emulator Test Suite -->
+</testng-results>

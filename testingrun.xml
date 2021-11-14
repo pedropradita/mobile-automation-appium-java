@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="resources.Listeners" />
+	</listeners>
+	
+	<!-- Test 	
+	<test name="Ecommerce">
+		<classes>
+			<class name="script.EcommerceTest">
+			</class>
+		</classes>
+	</test>
+	-->
+	
+	<test name="Api Demo">
+		<classes>
+			<class name="script.ApiDemoTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>
