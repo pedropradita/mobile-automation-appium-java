@@ -76,8 +76,8 @@ public class Base {
 		File app = new File(appDir, (String) prop.get(appName));
 
 		DesiredCapabilities cap = new DesiredCapabilities();
-		String device = (String) prop.get("device");
-//		String device = System.getProperty("device");
+// 		String device = (String) prop.get("device");
+		String device = System.getProperty("device");
 		if (device.contains("Pixel_2_API_30_x64")) {
 			StartEmulator();
 		}
@@ -98,7 +98,7 @@ public class Base {
 		prop.load(fis);
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability("browserstack.user", "pedropradita_EvuCe7");
-		cap.setCapability("browserstack.key", "sq11yWj46rcuqR61MUsg");
+		cap.setCapability("browserstack.key", "secret");
 		if (appName.equalsIgnoreCase("apiDemo")) {
 			cap.setCapability("app", "bs://d84e9619f981931a9dd1ab8c645d9d145dfdcfc0");
 		}else
