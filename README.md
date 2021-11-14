@@ -1,6 +1,6 @@
 # Mobile Automation Appium Java
 
-## Sample International Standard frameworks from scratch for mobile automation using Appium with OOP, TestNG, Maven, Jenkins, GitHub / Bitbucket, Apache Log4J2, Extent Reports.
+## Sample International Standard frameworks from scratch for mobile automation using Appium with OOP, TestNG, Maven, Jenkins, GitHub / Bitbucket, Apache Log4J2 & Extent Reports.
 
 ## Setup for Windows
 
